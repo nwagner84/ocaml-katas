@@ -1,0 +1,5 @@
+(library
+ (public_name katas)
+ (name katas)
+ (inline_tests)
+ (preprocess (pps ppx_inline_test)))
